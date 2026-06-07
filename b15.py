@@ -1,4 +1,4 @@
-'''Bài 5, Kiểm tra 3 số a, b, c xem có phải là tam giác đều không'''
+'''Bài 15, Kiểm tra 3 số a, b, c xem có phải là tam giác đều không'''
 while True:
     try:
         a, b, c = map(float, input("Hãy nhập vào độ dài của 3 cạnh của tam giác: ").split())

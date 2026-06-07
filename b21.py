@@ -1,4 +1,5 @@
-'''Bài 21.'''
+'''Bài 21. Viết chương trình nhập vào 1 số nguyên dương n từ bàn phím. 
+Hãy cho biết số đó là số chẵn hay số lẻ'''
 a = float(input("Hãy nhập vào 1 số nguyên lớn hơn 0:"))
 while True:
     try:

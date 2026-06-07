@@ -1,4 +1,4 @@
-'''Bài 17.'''
+'''Bài 17. Xét một tam giác có là tam giác vuông hay không khi biết ba cạnh của tam giác.'''
 def Pytago(x, y, z):
     result = x**2 == y**2 + z**2
     return result
