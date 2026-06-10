@@ -1,0 +1,1 @@
+'''Bài 49. Viết chương trình tìm tất cả các số có 3 chữ số abc sao cho abc = a^3+b^3+c^3'''
