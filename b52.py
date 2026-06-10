@@ -1,0 +1,1 @@
+'''Bài 52. Vừa gà vừa chó, bó lại cho tròn, ba mươi sáu con, một trăm chân chẵn. Hỏi mấy gà, mấy chó?'''

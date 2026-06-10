@@ -1,0 +1,2 @@
+'''Bài 51. Nhập 3 loại tiền và số tiền cần đổi. 
+Hãy tìm tất cả các tổ hợp có được của 3 loại tiền trên cho số tiền vừa nhập.'''
