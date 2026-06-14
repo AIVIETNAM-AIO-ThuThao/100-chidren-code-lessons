@@ -16,6 +16,6 @@ while True:
                 h += 1
                 if h == 24:
                     h = 0
-        print (f"Sau 1 s ta có: {h}: {p}: {s}")
+        print (f"Sau 1s ta có: {h}: {p}: {s}")
     except (ValueError, TypeError):
         print("Hãy nhập đúng định dạng số!")

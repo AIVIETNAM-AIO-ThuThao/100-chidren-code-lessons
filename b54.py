@@ -1,1 +1,1 @@
-'''Bài 54. Tính an (dùng chương trình con)'''
+'''Bài 54. Tính a^n (dùng chương trình con)'''
