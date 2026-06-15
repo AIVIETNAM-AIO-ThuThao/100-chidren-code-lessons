@@ -1,5 +1,5 @@
-'''Bài 46. Kiểm tra xem số n nhập vào có phải là số hoàn hảo - tổng các ước số của nó (không kể nó)
- bằng N.'''
+'''Bài 46. Kiểm tra xem số n nhập vào có phải là số hoàn hảo -
+ tổng các ước số của nó (không kể nó) bằng N.'''
 while True:
     try:
         n = int(input("Enter a postive integer greater than 1: "))

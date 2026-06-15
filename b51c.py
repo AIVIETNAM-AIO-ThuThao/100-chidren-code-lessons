@@ -3,15 +3,10 @@ while True:
         n = int(input("The amount of money to be exchanged: "))
 
         if n <= 0:
-            print(
-                "The amount of money to be exchanged must be positive. Try again!"
-            )
+            print("The amount of money to be exchanged must be positive. Try again!")
             continue
 
-        x, y, z = map(
-            int,
-            input("Enter three denominations: ").split()
-        )
+        x, y, z = map(int, input("Enter three denominations: ").split())
 
         if (
             x == y
@@ -21,15 +16,12 @@ while True:
             or y <= 0
             or z <= 0
         ):
-            print(
-                "The denominations must be positive and distinct. Try again!"
-            )
+            print("The denominations must be positive and distinct. Try again!")
             continue
 
         x, y, z = sorted([x, y, z], reverse=True)
 
         found = False
-
         for i in range(n // x + 1):
             for j in range(n // y + 1):
 
@@ -43,12 +35,9 @@ while True:
                         f"{j} coins of {y}, "
                         f"{h} coins of {z}"
                     )
-
                     found = True
-
         if not found:
             print("No solution exists")
-
         break
 
     except ValueError:
