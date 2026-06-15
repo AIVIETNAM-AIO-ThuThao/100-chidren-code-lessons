@@ -9,4 +9,4 @@ def solv_chicken_and_dog():
     if not found:
         print("No solution exists")
     return None
-solv_chicken_dog()
+solv_chicken_and_dog()
