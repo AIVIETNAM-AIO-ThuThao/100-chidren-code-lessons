@@ -10,9 +10,6 @@ else:
 
 
 
-
-
-
 def giai_bat_phuong_trinh(a, b, loai=">"):
     """
     Giải bất phương trình ax + b > 0 (hoặc ≥, <, ≤)

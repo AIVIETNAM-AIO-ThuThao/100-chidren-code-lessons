@@ -15,7 +15,7 @@ def solve():
                     print(f'Số trâu đứng là {standing}; trâu nằm là {laying}; trâu già {old}')
                     found = True        # thay đổi cờ
     if not found:
-        print("Không tìm thấy nghiệm")
+        print("No solution exists")
     return None         #thừa, có thể bỏ
 solve() 
 
